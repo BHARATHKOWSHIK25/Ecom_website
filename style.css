@@ -1,0 +1,314 @@
+/* ===== GLOBAL ===== */
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+}
+
+/* ===== NAVBAR CUSTOMIZATION ===== */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #0d6efd !important;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* ===== SEARCH BUTTON ===== */
+.btn-outline-success {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+.btn-outline-success:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* ===== CAROUSEL ===== */
+.carousel {
+    margin-top: 15px;
+}
+
+.carousel img {
+    height: 1000px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* ===== MAIN CONTENT TEXT ===== */
+p {
+    max-width: 1000px;
+    margin: 30px auto;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: center;
+    color: #555;
+}
+
+/* ===== CENTER NOTICE TEXT ===== */
+text p {
+    font-weight: 500;
+    color: #0d6efd;
+}
+
+/* ===== FEATURES CARD ===== */
+.card {
+    max-width: 800px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #666;
+    font-size: 15px;
+}
+
+/* ===== DROPDOWN MENU ===== */
+.dropdown-menu {
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .carousel img {
+        height: 280px;
+    }
+
+    p {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+}
+/* ===== FORGOT PASSWORD PAGE ===== */
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    max-width: 420px;
+    margin: 50px auto 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 6px;
+    border-top: 4px solid #2865a7;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 8px;
+    color: #2865a7;
+    font-size: 22px;
+}
+
+header a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #2865a7;
+    font-weight: 500;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FORM ===== */
+#forgotPasswordForm {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== INPUT ===== */
+#forgotPasswordForm input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* ===== INPUT FOCUS ===== */
+#forgotPasswordForm input:focus {
+    border-color: #2865a7;
+    outline: none;
+    box-shadow: 0 0 4px rgba(40, 101, 167, 0.4);
+}
+
+/* ===== BUTTON ===== */
+#forgotPasswordForm button {
+    width: 100%;
+    padding: 12px;
+    background: #2865a7;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#forgotPasswordForm button:hover {
+    background: #1f4f86;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    header,
+    #forgotPasswordForm {
+        margin: 20px;
+        width: auto;
+    }
+}
+/* ===== CATALOG PAGE CONTAINER ===== */
+.catalog-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* ===== CATALOG HEADER ===== */
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: #ffffff;
+    border-radius: 6px;
+    border-left: 5px solid #2865a7;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.catalog-header h1 {
+    font-size: 20px;
+    color: #2865a7;
+}
+
+.catalog-header a {
+    color: #2865a7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.catalog-header a:hover {
+    text-decoration: underline;
+}
+
+/* ===== PRODUCT GRID ===== */
+.grid {
+    gap: 1.5rem;
+}
+
+/* ===== PRODUCT CARD ===== */
+.product-item {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    border-top: 4px solid #2865a7;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-4px);
+}
+
+.product-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #555;
+}
+/* ===== CART CONTAINER ===== */
+.cart-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #2865a7;
+}
+
+/* ===== CART HEADER ===== */
+.cart-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2865a7;
+}
+
+/* ===== CART ITEMS ===== */
+.cart div {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.cart div:last-child {
+    border-bottom: none;
+}
+
+/* ===== TOTAL PRICE ===== */
+#total {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* ===== BACK LINK ===== */
+.cart-container a {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #2865a7;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cart-container a:hover {
+    text-decoration: underline;
+}

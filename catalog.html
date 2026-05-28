@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Catalog </title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head> 
+    <body align="center">
+        <header>
+            <header class="catalog-header">
+            <h1>Welcome to the Shop Catalog Page</h1>
+            <a href="cart.html">Go to Cart</a>
+        </header>
+        <section class = "grid">
+            <section class="catalog-container grid">
+            <div class="product-item">
+                <h2>Product 1</h2>
+                <p>Price:₹100</p>
+                <button onclick="addToCart('Product 1',100)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <h2>Product 2</h2>
+                <p>Price:₹ 200</p>
+                <button onclick="addToCart('Product 2',200)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <h2>Product 3</h2>
+                <p>Price:₹300</p>
+                <button onclick="addToCart('Product 3',300)">Add to Cart</button>
+            </div>
+        </section>  
+        <script src="app.js"></script>
+        </body>
+</html>
